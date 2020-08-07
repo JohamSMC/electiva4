@@ -12,8 +12,8 @@ library(readr)
 library(dplyr)
 library(magrittr)
 
-application_record <- read_csv("dataSets/application_record.csv")
-credit_record <- read_csv("dataSets/credit_record.csv")
+application_record <- read_csv(".../application_record.csv")
+credit_record <- read_csv(".../credit_record.csv")
 credit_record$MONTHS_BALANCE <- NULL
 
 credit_record
