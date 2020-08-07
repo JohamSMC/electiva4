@@ -20,7 +20,7 @@ library(readr)
 library(modeest)   # Moda
 library(plotly)    
 
-dermatology_data <- read_csv(".../dataSet-dermatology.txt")
+dermatology_data <- read_csv("https://raw.githubusercontent.com/JohamSMC/electiva4/master/dataSets/dataSet-dermatology.txt")
 
 dermatology_data$Age[dermatology_data$Age == "?"] <- NA
                    
